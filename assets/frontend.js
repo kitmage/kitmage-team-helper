@@ -1,7 +1,7 @@
 (function ($) {
 	'use strict';
 
-	var config = window.aspenTeamExplainer || {};
+	var config = window.kitMageTeamExplainer || {};
 	var wrapperSelector = '#team-fields-wrapper-' + config.productId;
 
 	function getNotice($form) {
@@ -78,7 +78,7 @@
 	}
 
 	$(document).on('found_variation', 'form.variations_form', function (event, variation) {
-		render($(this), variation.aspen_team_max_member_count, variation.aspen_team_variation_name);
+		render($(this), variation.kitmage_team_max_member_count, variation.kitmage_team_variation_name);
 	});
 
 	$(document).on('reset_data hide_variation', 'form.variations_form', function () {
