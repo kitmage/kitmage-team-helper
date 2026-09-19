@@ -1,7 +1,7 @@
 (function ($) {
 	'use strict';
 
-	var $field = $('.aspen-team-explainer-field');
+	var $field = $('.kitmage-team-explainer-field');
 	var selectors = [
 		'#_wc_memberships_for_teams_has_team_membership',
 		'#_wc_memberships_for_teams_team_product',
