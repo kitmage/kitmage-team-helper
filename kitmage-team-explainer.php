@@ -2,8 +2,8 @@
 /**
  * Plugin Name: KitMage Team Explainer
  * Plugin URI: https://kitmage.com
- * Description: Adds configurable, seat-aware instructions to WooCommerce Memberships for Teams products.
- * Version: 1.1.1
+ * Description: Adds seat-aware product instructions and team membership shortcodes for WooCommerce Memberships for Teams.
+ * Version: 1.2.0
  * Author: Mike@KitMage
  * Author URI: https://kitmage.com
  * Text Domain: kitmage-team-explainer
@@ -13,10 +13,12 @@
 
 defined( 'ABSPATH' ) || exit;
 
+require_once plugin_dir_path( __FILE__ ) . 'includes/class-kitmage-team-seats-expansion.php';
+
 final class KitMage_Team_Explainer {
 
 	const META_KEY = '_kitmage_team_explainer_message';
-	const VERSION  = '1.1.1';
+	const VERSION  = '1.2.0';
 
 	/** @var self|null */
 	private static $instance = null;
