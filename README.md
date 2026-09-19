@@ -1,4 +1,4 @@
-# Aspen Team Explainer
+# KitMage Team Explainer
 
 A small WordPress plugin for WooCommerce Memberships for Teams. It adds a **Team seat instructions** field to the parent product and displays the configured message beside the Teams fields for both simple and variable team products.
 
@@ -14,4 +14,8 @@ The message supports WordPress's safe post HTML. It is loaded whenever the paren
 
 ## Installation
 
-Copy this directory to `wp-content/plugins/aspen-team-explainer` and activate **Aspen Team Explainer**. WooCommerce and WooCommerce Memberships for Teams must also be active.
+Copy this directory to `wp-content/plugins/kitmage-team-explainer` and activate **KitMage Team Explainer**. WooCommerce and WooCommerce Memberships for Teams must also be active.
+
+## Author
+
+Mike@KitMage — https://kitmage.com
